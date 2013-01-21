@@ -10,7 +10,7 @@
   <property name="title" value="Forest"/>
  </properties>
  <tileset firstgid="1" name="forest" tilewidth="24" tileheight="24">
-  <image source="../images/tilesets/forest.png" width="216" height="192"/>
+  <image source="../images/tilesets/forest.png" width="216" height="240"/>
  </tileset>
  <layer name="clouds 2" width="120" height="22">
   <properties>
@@ -43,7 +43,7 @@
  </layer>
  <layer name="foreground" width="120" height="22">
   <data encoding="base64" compression="zlib">
-   eJztmFlqwzAQhgdKi21Mt5CXEELzEAJpDuWj5Cg9io/So1SKNUWdSPVotXH0g1FQpFn0abEM8L8qgMvrUM5WMkZV3p1C+RS+81bhu2wVvssWl08D0If0Xw02Otm+Ur9FXecar498+WLM9IkZd6XGNdXc4+aOfJ9E+8ehdOqv+8u5jt6Fv7fA9Vur/nWkmHTl4ivGQI7FjeicfRHtn4fyT38XvjZfqRS6P6fc3+eyfm3aqP4bh/bctrFU+Lrb36t+odrHMDKiXHzFHvfVkGdleW8x+EgibuyUwykS31MMIyPKtUc1hjou8xR8Xd49kMNO47pj+DDlp+eZk2/qc9/E11LX07qp1y9yOGp8jwz7pvy0/3pZcuZJiDDHNXOv9JV+BwT4fTe90b3xlXZagI9U46/f0VMzRn94l0Lmqt5670/Fl3O22PZkDl86pzFHOU8wT2nnAa6MLxYzQdL5tpn4Ul71yL0f/8sRH5VtzXL4ougZSG2KvL7XzO9C66F9hw/Xd06+9Kwf+66jYuu4YxBTMfjSfYLaPHvEdVY2WgffOcbPdMcfu/fn/iaQW1uR/6coXZ7tNKEWeejgcfYeEsRRlEaF77JV+C5bhe+yVfhOox9z+l+G
+   eJztmFlqwzAQhgWlxTamW/BLCKF5CIE09+g1fJQcpUfxUXqUSJUmiIkUj1YbRz8YBUWaRZ8Wy4zdV8XY+V2Ws5WIUZUPp1A+he+8VfguW4XvskXl0zA2hPRfSRu9aF+p37yud43XR758IWb8xIy7UuOaau5Rcwe+L7z9syyd+uv+cq6jT+7vI3D91qp/HSkmXbn48jEQY3EjPGffePtXWV77/zjEV8nxNvpKpdD9OeX+Ppf1a9Na8V07tKe2jaXC193+TvUL1S6GkRHl4sv3uN8GPSvLe4vBRxJRY8ccjpH4HmMYGVGMPUqVd9UY6qjMU/B1efcADluN65bgw5SfnmdOvqnPfRNfS92A66Zev8DhoPE9EOyb8tP+G0RJmSchghw74l7pK/0OyNj13fRGj8ZX2GkZ+0o1/vodPTVj8Ad3KWCu6q33/lR8KWeLbU+m8MVzGnIU8wTyFHae2D/js8VMkHS+bSa+mFc9cu+H/3LEh2VbsxS+IHwGYps8r7+O+F2ok+17eKi+c/LFZ/3Ydx0VW08dg5iKwRfvE9jmySOuk7LROvjOMX6mO/7YvT/3N4Hc2vD8v3np8mymCbXIQ3uPs3efII6iNCp8l63Cd9kqfJetwncaXQB/0mAU
   </data>
  </layer>
  <layer name="leaves" width="120" height="22">
@@ -186,6 +186,12 @@
   <object type="enemy" x="2568" y="360" width="24" height="24">
    <properties>
     <property name="enemytype" value="acorn"/>
+   </properties>
+  </object>
+  <object type="door" x="216" y="144" width="24" height="48">
+   <properties>
+    <property name="level" value="test_level"/>
+    <property name="to" value="main"/>
    </properties>
   </object>
  </objectgroup>

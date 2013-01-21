@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="20" tilewidth="24" tileheight="24">
+ <properties>
+  <property name="blue" value="255"/>
+  <property name="green" value="255"/>
+  <property name="offset" value="6"/>
+  <property name="red" value="255"/>
+  <property name="soundtrack" value="rave"/>
+ </properties>
+ <tileset firstgid="1" name="forest" tilewidth="24" tileheight="24">
+  <image source="../images/tilesets/forest.png" trans="ff00ff" width="216" height="240"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztw7EJADAIADAfKTj5/4m+UBwc2gQSAQA78iJ/O48sVR1sB9JCKw==
+  </data>
+ </layer>
+ <objectgroup color="#2ba443" name="floor" width="50" height="20">
+  <object x="0" y="264" width="1199" height="18"/>
+ </objectgroup>
+ <objectgroup color="#a46b09" name="platform" width="50" height="20">
+  <object x="312" y="192" width="213" height="20"/>
+ </objectgroup>
+ <objectgroup color="#000000" name="nodes" width="50" height="20">
+  <object name="main" type="door" x="384" y="96" width="48" height="48"/>
+ </objectgroup>
+</map>
