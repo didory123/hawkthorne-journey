@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="400" tilewidth="24" tileheight="24">
+ <properties>
+  <property name="offset" value="386"/>
+ </properties>
+ <tileset firstgid="1" name="gay-island" tilewidth="24" tileheight="24">
+  <image source="../images/tilesets/gay-island.png" width="624" height="936"/>
+ </tileset>
+ <layer name="sky" width="50" height="400">
+  <properties>
+   <property name="parallax" value="0.3"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztw2EJgDAUBsA3MMdy7KcZzLEcS2EOc5jDFLYQ+biDqwIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC+tlrtqqqqqqqqSWfII+QI2UNuIZ/KeIe8Qp6qqurvvxfrdks=
+  </data>
+ </layer>
+ <layer name="layer 4" width="50" height="400">
+  <data encoding="base64" compression="zlib">
+   eJzt1bENhDAQRcGlLgKKsKgDSiS6us4gArgGbm3PSF+k+0TgCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgVMsUx6d+n1vrtrr9n4f9mON947l6ezPKvZaVaL+jhI5MdOQyWsf9/l3L+J6M9j+y05GLjlx05NJrRy9dAADQsi+IACTX
+  </data>
+ </layer>
+ <layer name="layer 3" width="50" height="400">
+  <data encoding="base64" compression="zlib">
+   eJzt18FtgzAYgFGvFWborczQSw7NCLlkr45WlygHXEJdZGqbviehSIkQ/wcYkRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAng0hXE/zLZzu33dljLO/xs90G6tO9Xs9dAwZ90oPHemMS7PV7jiH6RxfL3F7j1vOuW6lI84b4tzTPXLLOO4eHef7DNO529Lw7Hh/2fHVcJvv211H2tBrx8vyvt13PJ7pj/Wa+w7QWkf8/WPLM06Hjv/cMSRr/xLm67+Xjp+uU+2Ot4N0HOV66PjesdaSM+OStXPTSkeO8cn/iJauR0k110dJOuazrTWsreNSSl6PnUdddZSOUu8ltenQsYejdKR0tEVHW7Z07P3utEVPHZ+ZwlBE
+  </data>
+ </layer>
+ <layer name="layer 2" width="50" height="400">
+  <data encoding="base64" compression="zlib">
+   eJzt08EJg0AQQNHZtKWSKmI9lrZNBNtxLnswF4MGRPMezEGUXT4yEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAWfoSU1ci9syQ835EzDnPsj43n6f2bjhwR5stY97xyu/2zPjF+UfvaKPjPztyH2ruQs2dqJ+7cqWOu/wPHTp06NChQ4eOK3T84q67dCzITen8
+  </data>
+ </layer>
+ <layer name="layer 1" width="50" height="400">
+  <data encoding="base64" compression="zlib">
+   eJzt1UEOgjAQQNF2JdewJ/XowqIJaVIYKixq3ktmV0c/NiElAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB4zpLT55VTamc2Ze14r7+7nb1ea53lYvfZvpG9kY7emTrlYsfZvuje/fPo7ZihI7JntOPoztR78mtH/Y7IjtGOo7P13EhH5A7N0BH9jA4dd3WUfP/7Q4eOXkf7/pm141/+j22+wnlkXg==
+  </data>
+ </layer>
+ <layer name="sand" width="50" height="400">
+  <data encoding="base64" compression="zlib">
+   eJzt0csRgjAABNCMaUBJF/ipSTuxSbQdw4FB0QwiysX3ZvZEWLJDCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsqYp9jjnNKoTLjFxzTvE3vbnn3HXucvax35HiY9oz21je/Y5DfO5NH/au8zubQl+621N6PmdPaceULWP3n5pqkOH/bNWDM1M7X+Vb9x9Lt6de8Jv/kBvHIzIK
+  </data>
+ </layer>
+ <objectgroup color="#6666ff" name="platform" width="50" height="400">
+  <object x="72" y="9264" width="216" height="24"/>
+  <object x="336" y="9336" width="192" height="24"/>
+  <object x="552" y="9264" width="264" height="24"/>
+  <object x="648" y="9240" width="48" height="24"/>
+  <object x="864" y="9360" width="72" height="24"/>
+  <object x="936" y="9336" width="48" height="48"/>
+  <object x="984" y="9288" width="72" height="72"/>
+  <object x="1056" y="9216" width="144" height="96"/>
+  <object x="744" y="9144" width="456" height="24"/>
+  <object x="192" y="9144" width="432" height="24"/>
+  <object x="312" y="9024" width="144" height="24"/>
+  <object x="360" y="9000" width="48" height="24"/>
+  <object x="168" y="8904" width="144" height="24"/>
+  <object x="216" y="8880">
+   <polyline points="0,0 0,-48 96,-48 96,-72 -96,-72 -96,-48 -120,-48 -120,-24 -144,-24"/>
+  </object>
+  <object x="72" y="8856">
+   <polyline points="0,0 0,24 144,24"/>
+  </object>
+  <object x="408" y="8784" width="192" height="24"/>
+  <object x="600" y="8760" width="120" height="48"/>
+  <object x="816" y="8712" width="120" height="24"/>
+  <object x="1032" y="8640" width="168" height="24"/>
+  <object x="624" y="9456" width="432" height="24"/>
+  <object x="96" y="9456" width="408" height="24"/>
+  <object x="0" y="9456">
+   <polygon points="0,0 96,0 144,48 168,48 192,72 288,72 384,120 432,72 504,72 504,144 0,144"/>
+  </object>
+  <object x="624" y="9480">
+   <polygon points="0,0 24,0 72,48 288,48 384,0 408,0 408,72 0,72"/>
+  </object>
+  <object x="1104" y="9456">
+   <polygon points="0,0 0,96 96,96 96,48"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="nodes" width="50" height="400">
+  <object name="main" type="door" x="24" y="9408" width="24" height="48"/>
+  <object type="liquid" x="0" y="9552" width="1200" height="96">
+   <properties>
+    <property name="drag" value="true"/>
+    <property name="opacity" value="0.7"/>
+    <property name="sprite" value="images/water.png"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup color="#800000" name="block" width="50" height="400">
+  <object x="1032" y="9456" width="72" height="96"/>
+  <object x="504" y="9456" width="120" height="96"/>
+ </objectgroup>
+</map>
