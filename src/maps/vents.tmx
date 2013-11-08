@@ -28,7 +28,12 @@
  </layer>
  <layer name="pipethings" width="80" height="30">
   <data encoding="base64" compression="zlib">
-   eJzt0zEKwjAchfHsdXDRwdP9D6GO6qiOrQfI0TyKD7JIcQi8Sij5fvCgxAzlo6YEAAAAAOs0pJRbv8Oa0c9DPw/9PPTz0M9DPw/9PPTz0M9DPw/9PL31G5ZfrrmH33r7/pY27/dK6f3Ubtq5LPQcOgv9Fi3esYVtxZ1d+e/m77NJzR7aVTuVhZ5DZzF11O9QcWevdptZv1HN7tpFO5aFnkNnMXbUD/iHD3BhKjw=
+   eJzt0zEKwkAQheEthTQiaCGCVtYeaQ6hlmqplokHyNE8ig8WYUkVnDW65P/g4TJuMXkkIQAAAABAmaoQ2l/vUDL686E/H/rzoT8f+vOhPx/686E/H/rzoT8f+vMZW39V/rR97nVNvvJ05fn0/Ztl3qNU3f4eITzvykU5xpjOppnpP3vfWw275uCmPe7M47fbprNGnd2Us3KIMZ1NM2uS/raZ9/03yx53Fupurd9NMqvV2VU5KfsY09k0szrpb5d5X2AMXp7AKls=
+  </data>
+ </layer>
+ <layer name="Tile Layer 6" width="80" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztl0kKwkAURDsX8Ex1I+eAc8A54OwBPKpv5U5CEOxuqAdvGfLpTVUVIbwKa6211uZkaGnse1N4g49t+eVfqWqMMcYYY0wXe9jHAQ5xhGMsI96VCxOc4gznuMAlrrD68k3nL5flwRo3uMUd7vGAR6wj3pULJzzjBa94wzs+8BnxLmOMMWlCbojcELkhckPkhsgNkRsiNxT7vtSht4jeInqL6C2it4jeInqLar9fI/Rm0ZtFbxa9WfRm0ZtFb1bl92uE3SZ2m9htYreJ3SZ2m9htKv1+xiTHG817gXI=
   </data>
  </layer>
  <objectgroup name="block" width="80" height="30">
