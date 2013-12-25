@@ -130,6 +130,7 @@ function Weapon:collide(node, dt, mtv_x, mtv_y)
     if self.dropping and (node.isFloor or node.floorspace or node.isPlatform) then
         self.dropping = false
     end
+<<<<<<< HEAD
     
 
 
@@ -139,6 +140,13 @@ function Weapon:collide(node, dt, mtv_x, mtv_y)
         if self.player then
             self.collider:setGhost(self.bb)
         end
+=======
+
+    if node.hurt and self.player then
+        local knockback = self.player.character.direction == 'right' and self.knockback or -self.knockback
+        node:hurt(self.damage, self.special_damage, knockback)
+        self.collider:setGhost(self.bb)
+>>>>>>> master
     end
     
     if self.hitAudioClip and node.hurt then
