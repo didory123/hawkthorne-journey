@@ -196,6 +196,12 @@
     <property name="to" value="secret"/>
    </properties>
   </object>
+  <object type="info" x="6408" y="552" width="24" height="24">
+   <properties>
+    <property name="info" value="Pickaxe Recipe = | 1 blade + 1 boulder"/>
+    <property name="sprite" value="note"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup color="#535355" name="movement">
   <object name="platform" x="1872" y="566">
