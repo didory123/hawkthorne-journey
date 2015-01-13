@@ -56,8 +56,14 @@ return {
     { type='weapon', name='arrow' }
   },
   {
+    { type='material', name='blade' },
+    { type='material', name='boulder' },
+    { type='weapon', name='pickaxe' },
+  },
+  {
     { type='material', name='keyshardbottom' },
     { type='material', name='keyshardtop' },
     { type='key', name='throneroom' }
+
   },
 }

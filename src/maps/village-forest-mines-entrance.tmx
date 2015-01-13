@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="80" height="60" tilewidth="24" tileheight="24">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="80" height="60" tilewidth="24" tileheight="24">
  <properties>
   <property name="offset" value="46"/>
   <property name="soundtrack" value="mountains"/>
@@ -197,7 +197,7 @@
    eJzt18sKgkAUBuB2PXnQZdsF2gRdnqEer2kRhIylnhJzvg/O7ij4z5lRJxMAAAAAAAAAAA7TfNGcDLuRUzd182b2vkeGDM0xzeTpZY+fU13M6UfP3OqM/Tytzk3bKtWnuSFPbu3Yb0AJ3n2LRNwKODujz/eatX+H7xj7zDFMuXOUZn6V1eO+15GvQ1/vkJLmui7HW+YbqYQZ66rvWZlNm9U21S7VvlLrVJuG91imWln3sCHl+M//LEPK8Z9F9/Y8XbeonBWlavvsuX75xfrlF+uXX6xffrF++cX6+8zvDveNaJQ=
   </data>
  </layer>
- <objectgroup color="#000000" name="nodes" width="80" height="60">
+ <objectgroup color="#000000" name="nodes">
   <object type="movingplatform" x="965" y="1021" width="48" height="24">
    <properties>
     <property name="line" value="platform_1"/>
@@ -274,9 +274,9 @@
   </object>
   <object name="main" type="door" x="48" y="1152" width="48" height="48"/>
   <object type="climbable" x="1641" y="1103" width="5" height="139"/>
-  <object name="stone" type="spawn" x="1728" y="1104" width="24" height="24">
+  <object name="blade" type="spawn" x="1728" y="1104" width="24" height="24">
    <properties>
-    <property name="message" value="You've found a stone! What is it doing in a chest in the middle of nowhere?"/>
+    <property name="message" value="You've found a blade! What is it doing in a chest in the middle of nowhere?"/>
     <property name="nodeType" value="material"/>
     <property name="offset_x" value="20"/>
     <property name="offset_y" value="-40"/>
@@ -287,7 +287,7 @@
   <object name="rock" type="material" x="1248" y="1152" width="24" height="24"/>
   <object name="stick" type="material" x="168" y="1176" width="24" height="24"/>
   <object name="leaf" type="material" x="1344" y="1008" width="24" height="24"/>
-  <object name="leaf" type="material" x="1656" y="768" width="24" height="24"/>
+  <object name="stone" type="material" x="1656" y="768" width="24" height="24"/>
   <object type="liquid" x="216" y="1296" width="240" height="144">
    <properties>
     <property name="foreground" value="true"/>
@@ -312,7 +312,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="movement" width="80" height="60">
+ <objectgroup name="movement">
   <object name="platform_1" x="1037" y="1005">
    <polyline points="-29,2 -74,85 -123,2"/>
   </object>

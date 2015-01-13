@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="60" height="50" tilewidth="24" tileheight="24">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="60" height="50" tilewidth="24" tileheight="24">
  <properties>
   <property name="blue" value="247"/>
   <property name="green" value="216"/>
@@ -94,17 +94,17 @@
  </layer>
  <layer name="filler" width="60" height="50">
   <data encoding="base64" compression="zlib">
-   eJztl/0NgjAQR082cAAT99Gh3EHC305AGIM4lW2w5qzlQ6GVlPeSX6DQ9O5BQqgIAAAAAAD8ymEnF5PNsHXf3P3xxTcnrN+5y2ucs6/P1nwBAADWzF3kVk2YVxXRW4mOc03l25p6Jsf5K31HY+o2yrXP1zqGYqlN30O9W7da+dlxuajFdKpAPuYU7+/Unbtj+Yzv7DxLNceO/XVSEvLVzr6rvub7audWee7N/3qw9p++A32+IVdR92bXLYZrpCJFH6HvQOwaV+mSovZYX35/S6zpcjJ7X7v3165rIcazd+8VAAAAAAAgdx44pFcH
+   eJztl9ENwiAURbEbOICJ++hQ7mBTP/xxgqZjNE4lpMW8Ph+EitBa7kluLJXwOECNVQoAAAAAAADwLYeduugUQ+m+W/eHL3y3hPE7D3m3t+zLKc0XAAAAWDNPpR5NQL+mSj6V5FjXXL69rqdzjB9pHp2u2xFXl69xlGJo9bx9czduLfEz7fqnFuE0Qj76VNM9tdf2sx7Dna1nTfqYNh9nDrfIsyX5UmfuSu9xX+rcE8+9/r8u1mbjPqppUuHylVwV+S66Llk37prS1zePHDUk3/tYW1qH0LXgNa5qiPQblBPX/voSMqbNSb/7mnd/6ro03Md3zueedbuva8Lls8TznIuY8/uPlOQKAAAAAADWwwtOTnvf
   </data>
  </layer>
  <layer name="floor" width="60" height="50">
   <data encoding="base64" compression="zlib">
-   eJztlm0OgyAQBQnn1oRT1HPUHqMeqn5UqygVha2BzkvmnzGMb9moFCGEEEIIIYQQQnJLoQceWpm65erzSOemJ0zTkrt352nTeefa+5bvm0XvnXuprz5teL74rvyrP/cth95NSnN/wNfYvtVy9pPYd5F8k9l3Er5X77t6+M6q+Ny3CUHfn++70bPRx3qM6TvbadE6dvXX6MX/kwtRX+uZoI53+vNxFfO1Ouh7PeM7f8/M09dN3HecX6uD3vOIr6PLEE8RX0fn3r4bnjEco/uO53wGIugZxdfqIwW8XF39JeS563vXq/uUPJ73CQAAAAAAIHte0oIJqA==
+   eJztltENgjAURWsn48s5HAQCU8ivcQN1DBjKFiiUB0+LUAp4b3JCQoi+w20bhEAQBEEQBEEQBEEQ5GiJZc1LiuypCD2P71xlS1Yqju6tPSna+6i9j/k29HrX7okMPe38fPAd+Od/7pvUvWd7WvcTfDPqm/fX/i7Ou4V8d3Pe+fANfd496/cs4m6/tXj0Xf28M56lnNbjkr7WmbZYx1x/pex9P3F49SXPzOr4S38urt58SQdVr7/42r9jebq6efc165d0UHlO8WW6bOdW/xHZhPJlOnf2HfEczJyq+2f1rKK9piv7mjmLmbisWe1L31M60jnT/Sxf0scqUN+i69z0/al7J1euvzU9Od/GqXfvfhK35npx9X3IwX7aBFy/Lr6O+2lTnMneVXNGGvue+X6PNzDv0v2afWq7hp7Rpy/tNfR8PogZQs8FAAAAAPBvvAGJUPmS
   </data>
  </layer>
  <layer name="trees" width="60" height="50">
   <data encoding="base64" compression="zlib">
-   eJzt18EJg0AQQNGxhHiynJRmE97tIC14TVcxhKAuA/GgJGzeg7kMIv7dkxEAAAD7dU308/wNvXXTCwAAuXvElOyu2b4GQyzNz85bxDgU+5q829adq930xU87RdmYNG/O4Yw7v8z/Yu1r+qPfXfrUmz0LAAAA8EsebnokxA==
+   eJzt18ERgjAQheGFDvRkOWlG6kgT3EUKsAWuduWiwwhxDRxEY/i/mVyWwOzLMsMgAgAAAADLHQrxujaDvHkjLwAAAGC7inRGzVn1HNTyzNznvIic6qCekyHbOOeo1v2wtbfa4rUvrbkl94YZjcyTc1hj5jv9F9s/lv/0s0Nzea29KbJmPrrmvtfJ+o7lPdNEoxnPuprIOSA9/XtbldOZVcZ8c6Z5nXUGg38+C+3daxYf27OleeeYtY18p3PLCgAAkLobAKg55g==
   </data>
  </layer>
  <layer name="leaves" width="60" height="50">
@@ -137,12 +137,12 @@
    eJzt0ssNgCAQQMEthVIszRbswLt12IeluHsz3P0EZ5INhBMvEAEAAAAAAM/ZI9YtotXkvr19nztV65LrdUZuzjed+t48m1+91I2yLf7Um3/3V72l/9P74L31xtl81IzeCgAAAMB3nYRdHho=
   </data>
  </layer>
- <layer name="collision" width="60" height="50">
+ <layer name="collision" width="60" height="50" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzt1U0KgCAQhuF2nTyoUwT9nKGOl1CCREaG6eS8D8zGTTN8NlYVAAAAAAAoTV/vNZma69zdpKd1bu252/mhh81c873XOrf23FPuu9Z8pzPVXFRJ7Jw5uTvtnPHbvH35lUZCfj6D6Wv05BrCzVKiWHtJcpYxSZhzvcjMni3H+d0bEFIpuf0/JSGPL/AG/JOk/wkAAAAActoAy50+9w==
+   eJzt1VsKwyAQheG8ZeWFdhWFXtbQLq+WVhAZLxPETPT/wBcfkhmPl2UBAAAAAACjua6/8XDjue5dTX+z9j177r5/zMNnPvO+n7Xv2XPved+d3X8ubpyEMRLf557COy3OeGveqfxGYyG/lJur657IVSPM0qJW91IuS+kesroeJTV7VuqtZb9vITM/9/rP594AzaiR6lf73bD+WnvcIXH9pbXakr2lN0C7nzV1WnsDpHXW5NviPPWUO7vSnNU+atXUf/QeY6W9O1KvX0c7gwAAACP7AI2rWts=
   </data>
  </layer>
- <objectgroup color="#000000" name="nodes" width="60" height="50" opacity="0.9">
+ <objectgroup color="#000000" name="nodes" opacity="0.9">
   <object name="tilda" type="npc" x="761" y="720" width="48" height="48"/>
   <object name="main" type="door" x="48" y="816" width="48" height="48"/>
   <object type="scenetrigger" x="552" y="262" width="24" height="504">
@@ -207,5 +207,77 @@
   </object>
   <object name="stick" type="material" x="168" y="696" width="24" height="24"/>
   <object name="stick" type="material" x="1008" y="672" width="24" height="24"/>
+  <object type="enemy" x="1152" y="888" width="24" height="24">
+   <properties>
+    <property name="enemytype" value="fish_horizontal"/>
+    <property name="sheet" value="fish_horizontal"/>
+   </properties>
+  </object>
+  <object type="liquid" x="1248" y="888" width="24" height="24">
+   <properties>
+    <property name="drag" value="true"/>
+    <property name="foreground" value="true"/>
+    <property name="opacity" value=".5"/>
+    <property name="speed" value="0.2"/>
+    <property name="sprite" value="images/liquid/water.png"/>
+    <property name="uniform" value="true"/>
+   </properties>
+  </object>
+  <object type="enemy" x="1164" y="912" width="24" height="24">
+   <properties>
+    <property name="enemytype" value="fish_horizontal"/>
+    <property name="sheet" value="fish_horizontal"/>
+   </properties>
+  </object>
+  <object type="liquid" x="1104" y="888" width="144" height="48">
+   <properties>
+    <property name="drag" value="true"/>
+    <property name="foreground" value="true"/>
+    <property name="opacity" value=".5"/>
+    <property name="speed" value="0.2"/>
+    <property name="sprite" value="images/liquid/water.png"/>
+    <property name="uniform" value="true"/>
+   </properties>
+  </object>
+  <object name="platform2" type="movingplatform" x="1176" y="816" width="24" height="24">
+   <properties>
+    <property name="line" value="platform2"/>
+    <property name="speed" value="4"/>
+    <property name="sprite" value="images/platforms/forestplatformsingle.png"/>
+    <property name="start" value="1"/>
+   </properties>
+  </object>
+  <object name="platform1" type="movingplatform" x="1080" y="864" width="24" height="24">
+   <properties>
+    <property name="line" value="platform1"/>
+    <property name="speed" value="6"/>
+    <property name="sprite" value="images/platforms/forestplatformsingle.png"/>
+    <property name="start" value="0"/>
+   </properties>
+  </object>
+  <object name="secret" type="door" x="1320" y="816" width="24" height="48">
+   <properties>
+    <property name="level" value="village-forest-mines"/>
+    <property name="sound" value="false"/>
+    <property name="to" value="secret"/>
+   </properties>
+  </object>
+  <object name="Sword_of_Duquesne" type="spawn" x="1176" y="768" width="24" height="24">
+   <properties>
+    <property name="message" value="You've found the Sword of Duquesne!"/>
+    <property name="nodeType" value="weapon"/>
+    <property name="offset_x" value="20"/>
+    <property name="offset_y" value="-40"/>
+    <property name="spawnType" value="keypress"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="movement">
+  <object name="platform2" x="1191" y="828">
+   <polyline points="0,0 -48,0"/>
+  </object>
+  <object name="platform1" x="1137" y="876">
+   <polyline points="0,0 -48,0"/>
+  </object>
  </objectgroup>
 </map>

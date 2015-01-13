@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="60" height="30" tilewidth="24" tileheight="24">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="60" height="30" tilewidth="24" tileheight="24">
  <properties>
   <property name="blue" value="247"/>
   <property name="green" value="216"/>
@@ -73,7 +73,7 @@
  </layer>
  <layer name="floor" width="60" height="30">
   <data encoding="base64" compression="zlib">
-   eJztl0lOw0AQRctbTsTxesc5mCFMS3AYA1LiLSDGS5gj8Izt0LLiEHAPMaqSntqrrnrqH6ctorUMtRp7gMD1EXuAgLUGK8nXalzvvZeI2YUd2IYt2IQNWE/c91ukUhjimnrwvcVpBDdwDVdwCRdwHsnXZ02Sknfc3uAVXuAZniL7HtP/qIJnJ1X7ziIve8kB6wD2IWT+M/abVGQBfJvc0Tdk/mP72oTIf+1b5VpcZPqvvvPyX9N1vuz7bItVXJyxS98mXedTX/VVX/Xtk699x7Lf/Tbz7kN987XvHD/1a7sPLaPvkLlSOINTOCzPztj/5b/p3XYf8u1LpoRsCRkrvj2FzMmgzOA0j7iZE9ZH1ge4h3G5h7H36jpP7tmXLAmZErIlZKz49iwyV3tMe49n/M58+PqAzAjZETIkZEnIVJEt29Gmd76N96fJ293+hW+2uJv6qq/6qq/6qm8rn1JQpvc=
+   eJztl0tOwzAURZ+nrIjlecZGKJ8CZQipGr5SmylUfDcRlsAJScpTlBRK7KRBftKRZ34+9k3iiITahtrtewEd10eHvWZGJDYdNqzUHuyYr9G6nvvIiD2EAxjBPpS+cU/eEUxxjTz43uF3CzdwDVfKt+9z9lELk/OO5xu8wgs8w5Nxv7+b1IT+ZwUTR/te+taR5r3khHEMx1DN/0zlwHUWEuZfFCQd+Fa5p29d/mP1DLisvn01XeS/9C1yLS4y/Vffdfkvabu+5Ptss1FcnLFL3ypt1xd8g2/wDb5D8tV3LP3u16y7Dw3NV985furXdB/aRt8p64rgEi7gND87q7/lm/Ruug/59iVTQraEjGX/nkLmZJxncJVH3Ow545LxER5gns9h9Vxt15N69iVLQqaEbAkZy/49s8yVHqve85rnzIevD8iMkB0hQ0KWhExl2dKOmsH5Vt6fNm12+xe+ye/dgm/wDb7BN/gG30Y+ASnFpKk=
   </data>
  </layer>
  <layer name="tree" width="60" height="30">
@@ -91,7 +91,7 @@
    eJztlskKwjAURbvz/7/AnePGYaEFBefZf/K4skgDbUle03APnG3yLjcJyTIhhPBHv/fTNw/WfOIL3wHWr8s348pwjpjyF3sO0XUZOfsc8YTnCPq3ZkbmOS5w6ci/NuzDmir5fWB5puvQxp1LGev3W7gZ0MMQR4H66OK72MWZm6B7WE7xrc8dxvAfGrP3BKfGM8T0H67Chhm3jh6b0Hb+HXvu8eAxU0xcyHDFG94TyPNP6vlSO49CCCGEBR9yDEia
   </data>
  </layer>
- <objectgroup color="#000000" name="nodes" width="60" height="30">
+ <objectgroup color="#000000" name="nodes">
   <object type="liquid" x="816" y="504" width="96" height="216">
    <properties>
     <property name="foreground" value="true"/>
@@ -143,4 +143,5 @@
   <object name="stick" type="material" x="480" y="72" width="24" height="24"/>
   <object name="rock" type="material" x="456" y="504" width="24" height="24"/>
  </objectgroup>
+ <objectgroup name="movement"/>
 </map>
